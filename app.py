@@ -16,6 +16,11 @@ def hello():
     return jsonify(data)
 
 
+@app.route('/about')
+def about():
+    return "about me"
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
