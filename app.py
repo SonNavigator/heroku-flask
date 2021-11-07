@@ -1,6 +1,6 @@
 from flask import Flask, json, jsonify
 
-# change me new
+
 app = Flask(__name__)
 
 
@@ -9,7 +9,7 @@ data = {
     'fb': "STACKPYTHON"
 }
 
-# Add comment 
+
 @app.route('/api')
 def hello():
     # Serialize an object, then return to JSON format
