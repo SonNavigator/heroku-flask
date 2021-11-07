@@ -16,7 +16,7 @@ def hello():
     # Serialize an object, then return to JSON format
     return jsonify(data)
 
-
+# Second comment
 @app.route('/about')
 def about():
     return "about me"
