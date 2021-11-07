@@ -10,6 +10,7 @@ data = {
 }
 
 
+# Just comment
 @app.route('/api')
 def hello():
     # Serialize an object, then return to JSON format
